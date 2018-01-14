@@ -1,9 +1,10 @@
-# Projeto Google Glass
-
+# Site Google Glass
+Site feito no curso de HTML5 com Gustavo Guanabara.
 Segue o Link [Projeto](https://ruidealencar.github.io/google-glass/)
 
 * HTML5
 * CSS3
+* JavaScript
 
 # Preview Desktop
 

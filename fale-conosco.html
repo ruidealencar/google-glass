@@ -7,7 +7,13 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <link rel="stylesheet" type="text/css" href="css/form.css" />
 </head>
-<script src="javaScript/funcoes.js"></script>
+<script language="JavaScript" src="javaScript/funcoes.js">
+    function calc_total() {
+        var qtd = parseInt(document.getElementById('cQtd').value);
+        tot = qtd * 1500;
+        document.getElementById('cTot').value = tot;
+    }
+</script>
 
 <body>
     <div id="interface">
@@ -21,7 +27,7 @@
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul type="disc">
-                    <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('imagens/contato.png')">
+                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/contato.png')">
                         <a href="index.html">Home</a>
                     </li>
                     <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/contato.png')">
